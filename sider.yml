@@ -1,0 +1,8 @@
+linter:
+  cpplint:
+    target: "src"
+    extensions: "c,cc,cpp"
+    headers: "hpp,hxx"
+    filter: "-whitespace,+whitespace/braces,-legal/copyright"
+    linelength: 80
+    exclude: "extern/*"
